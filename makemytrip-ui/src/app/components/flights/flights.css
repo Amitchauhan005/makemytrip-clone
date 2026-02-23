@@ -1,0 +1,8 @@
+.custom-background {
+    background-image: url('https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: This makes the background fixed while scrolling */
+    min-height: 100vh;
+}

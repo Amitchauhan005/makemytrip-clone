@@ -1,0 +1,61 @@
+<!-- flight-search.component.html -->
+<div class="bg-white p-4 rounded-4 shadow-sm">
+    <div class="d-flex gap-4 mb-3">
+        <span class="fw-bold border-bottom border-primary border-3 pb-1">One Way</span>
+        <span>Round Trip</span>
+        <span>Multi City</span>
+    </div>
+    
+    <p class="text-secondary mb-2"><i class="fas fa-globe me-1"></i>Book International and Domestic Flights</p>
+
+    <div class="row g-3 align-items-end">
+        <div class="col-md-3">
+            <label class="fw-semibold mb-1">From</label>
+            <div class="border rounded-3 p-2 bg-light">
+                <strong>Delhi</strong><br>
+                <span class="small text-secondary">DEL, Delhi Airport India</span>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label class="fw-semibold mb-1">To</label>
+            <div class="border rounded-3 p-2 bg-light">
+                <strong>Bengaluru</strong><br>
+                <span class="small text-secondary">BLR, Bengaluru International Airport ...</span>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <label class="fw-semibold mb-1">Departure ▼</label>
+            <div class="border rounded-3 p-2">24 Feb'26 <span class="small">Tuesday</span></div>
+        </div>
+        <div class="col-md-2">
+            <label class="fw-semibold mb-1">Return ▼</label>
+            <div class="border rounded-3 p-2 text-muted">Tap to add return</div>
+        </div>
+        <div class="col-md-2">
+            <label class="fw-semibold mb-1">Travellers & class</label>
+            <div class="border rounded-3 p-2">1 Traveller <span class="small">Economy</span></div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-wrap align-items-center justify-content-between mt-4">
+        <div class="d-flex flex-wrap gap-3">
+            <span class="badge-offer">Regular fares</span>
+            <span class="badge-offer">Student <span class="small">Extra baggage</span></span>
+            <span class="badge-offer">Armed Forces <span class="small">₹600 off</span></span>
+            <span class="badge-offer">Senior Citizen <span class="small">₹600 off</span></span>
+            <span class="badge-offer">Doctor and Nurses <span class="small">₹600 off</span></span>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+            <span class="badge-offer"><i class="fas fa-ban me-1"></i>Add Zero Cancellation</span>
+            <button class="btn btn-mmt">SEARCH</button>
+        </div>
+    </div>
+    
+    <div class="mt-2 small text-secondary">
+        <i class="fas fa-info-circle"></i> Get 100% refund on cancellation 
+        <span class="text-primary">View Details</span>
+    </div>
+</div>
+
+<app-flight-card></app-flight-card>
+<app-flight-card></app-flight-card>
